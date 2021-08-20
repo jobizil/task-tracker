@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Doctors Appointment",
+      "date": "19-Aug-2020",
+      "time": "3:24 AM",
+      "reminder": false
+    },
+    {
+      "id": 2,
+      "title": "Meeting at School",
+      "date": "05-Oct-2020",
+      "time": "4:42 AM",
+      "reminder": false
+    }
+  ]
+}
