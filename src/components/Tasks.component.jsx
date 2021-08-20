@@ -1,15 +1,12 @@
 import Task from "./Task.component"
 
-  
-const Tasks = ({tasks, onDelete}) => {
-    return (
-        <div >
-            {
-                tasks.map(task => (
-                    <Task key={task.id} task={task} onDelete={onDelete}/>
-               ))
-        }
-        </div>
-      )
+const Tasks = ({ tasks, onDelete, onToggle }) => {
+	return (
+		<div>
+			{tasks.map((task) => (
+				<Task key={task.id} task={task} onDelete={onDelete} onToggle={onToggle} />
+			))}
+		</div>
+	)
 }
-  export default Tasks
+export default Tasks
