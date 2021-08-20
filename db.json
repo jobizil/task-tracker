@@ -5,14 +5,20 @@
       "title": "Doctors Appointment",
       "date": "19-Aug-2020",
       "time": "3:24 AM",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 2,
       "title": "Meeting at School",
       "date": "05-Oct-2020",
       "time": "4:42 AM",
-      "reminder": false
+      "reminder": true
+    },
+    {
+      "title": "Meeting Today",
+      "date": "3pm",
+      "reminder": true,
+      "id": 3
     }
   ]
 }

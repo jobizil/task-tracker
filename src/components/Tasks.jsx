@@ -1,4 +1,4 @@
-import Task from "./Task.component"
+import Task from "./Task"
 
 const Tasks = ({ tasks, onDelete, onToggle }) => {
 	return (
